@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import { Switch, Route } from "react-router-dom";
 import Article from "./Article/Article";
 import DynamicArticle from "./DynamicArticle/DynamicArticle";
+import ArticleList from "./ArticleList/ArticleList"
 import { isEmpty } from "lodash";
 
 function App() {
@@ -15,7 +16,6 @@ function App() {
       );
       const responseJson = await response.json();
       setFetchedData(responseJson);
-
     };
 
     if (isEmpty(fetchedData)) {
@@ -23,11 +23,12 @@ function App() {
     }
   }, [fetchedData]);
 
+
   return isEmpty(fetchedData) ? null : (
     <div className="App">
       <Switch>
         <Route>
-          <DynamicArticle article={Object.values(fetchedData)[1]} />
+          <ArticleList articles={Object.values(fetchedData)} />
         </Route>
       </Switch>
     </div>
