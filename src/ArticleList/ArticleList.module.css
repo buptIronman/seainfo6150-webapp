@@ -1,0 +1,13 @@
+.List{
+    margin: 4px;
+    background-color:  grey;
+    border: #444444;
+    border-style: dotted;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 10px red;
+}
+
+ul{
+    list-style-type: none;
+
+}

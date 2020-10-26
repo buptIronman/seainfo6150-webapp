@@ -1,0 +1,24 @@
+.item{
+    margin: 30px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    background-color: red;
+    background-image: linear-gradient(to right, brown, white 20%);
+    font-size: medium;
+    padding: 10px;
+}
+
+.title{
+    color: firebrick;
+}
+
+.time{
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.text{
+    font-size: x-small;
+    padding-bottom: 4px;
+}

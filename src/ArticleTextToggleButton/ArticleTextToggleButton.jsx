@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import styles from './ArticleTextToggleButton.module.css';
 
 const ArticleTextToggleButton = ({ButtonText, onClick}) => {
 
@@ -11,7 +12,7 @@ const ArticleTextToggleButton = ({ButtonText, onClick}) => {
             onClick(buttonState);
             setButtonState(!buttonState);
             console.log(buttonState);
-        }}>{ButtonText}</button>
+        }} className={styles.button}>{ButtonText}</button>
     </div>)
 }
 
