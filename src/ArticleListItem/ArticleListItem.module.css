@@ -7,15 +7,16 @@
     background-image: linear-gradient(to right, brown, white 20%);
     font-size: medium;
     padding: 10px;
+    display: -ms-grid;
 }
 
 .title{
     color: firebrick;
-
+    text-decoration: underline;
 }
 
 .time{
-    font-size: x-small;
+    font-size: small;
     font-weight: bolder;
 }
 

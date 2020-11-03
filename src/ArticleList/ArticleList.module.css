@@ -5,6 +5,9 @@
     border-style: dotted;
     border-radius: 15px;
     box-shadow: 5px 5px 10px 10px red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-count: 3;
 }
 
 ul{

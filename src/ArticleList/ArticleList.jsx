@@ -8,9 +8,9 @@ const ArticleList = (articles) => {
         return (<div className={styles.List}>You have no data!</div>)
     }
 
-    return (<div className={styles.List}><ul>{articles.articles.map((article) => {
-        return <li key={article.title}>{ArticleListItem(article)}</li>
-    })}</ul></div>)
+    return (<div className={styles.List}>{articles.articles.map((article) => {
+        return <ArticleListItem key={article.title} article={article}></ArticleListItem>
+    })}</div>)
 }
 
 export default ArticleList
