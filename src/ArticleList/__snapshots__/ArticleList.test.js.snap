@@ -10,47 +10,4 @@ exports[`ArticleList test no data 1`] = `
 </div>
 `;
 
-exports[`ArticleList test renders correctly after button is clicked 1`] = `
-<div>
-  <div
-    style="border: 1px solid black; margin: 2rem;"
-  >
-    <header />
-    <div>
-      We started with 
-      0
-    </div>
-    <div>
-      We're now at 
-      1
-    </div>
-    <button>
-      Click me to add 1
-    </button>
-  </div>
-</div>
-`;
-
-exports[`ArticleList test renders correctly when currentNum is 10 1`] = `
-<div>
-  <div
-    style="border: 1px solid black; margin: 2rem;"
-  >
-    <header />
-    <div>
-      We started with 
-      10
-    </div>
-    <div>
-      We're now at 
-      10
-    </div>
-    <button>
-      Click me to add 1
-    </button>
-    <div>
-      Whee!
-    </div>
-  </div>
-</div>
-`;
+exports[`ArticleList test render correctly 1`] = `undefined`;
