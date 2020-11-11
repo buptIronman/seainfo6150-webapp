@@ -10,7 +10,7 @@ const ArticleListItem = (props) => {
         console.log(buttonState+ "item")
         setStatus(!buttonState);
     }
-    
+
 
     if(status){
         return (<div className={styles.item}>
