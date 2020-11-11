@@ -8,3 +8,9 @@
     font-size: large;
     
 }
+
+@media screen and (max-width: 900px){
+    .button{
+        font-size: medium;
+    }
+}

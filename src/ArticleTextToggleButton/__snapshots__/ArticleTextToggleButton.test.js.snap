@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem test click button to show more 1`] = `
+<div>
+  <div>
+    <button
+      class="button"
+    >
+      show less
+    </button>
+  </div>
+</div>
+`;
